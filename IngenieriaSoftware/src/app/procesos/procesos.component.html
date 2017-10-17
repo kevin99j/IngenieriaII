@@ -1,0 +1,83 @@
+<nav>
+    <div class="nav-wrapper  indigo accent-3  ">
+
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a routerLink="/tareas">Tareas</a></li>
+            <li><a routerLink="/procesos">Procesos</a></li>
+            <li><a routerLink="/usuarios">Usuarios</a></li>
+            <li><a routerLink="/app">Salir</a></li>
+
+        </ul>
+    </div>
+</nav>
+<ul id="slide-out" class="side-nav fixed">
+<li>
+    <div class="user-view">
+        <img id="pr" src="https://i.ytimg.com/vi/gYHY8wyxw7o/maxresdefault.jpg" alt="">
+    </div>
+</li>
+<li (click)="listarProcesos()">
+    <ul class="collapsible " data-collapsible="accordion">
+        <li>
+            <div class="collapsible-header green accent-4"><i class="material-icons">add</i>Crear</div>
+            <div class="collapsible-body">
+                <div class="row">
+                    <div class="col s12">
+                        Nombre:
+                        <div class="input-field inline">
+                            <input id="nombreTarea" type="text" class="validate">
+                            <label for="email" data-error="wrong" data-success="right">Nombre</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-field col s12">
+                    <select multiple>
+      <option value="" disabled selected>Elegir Participantes</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+
+    </select>
+                </div>
+                <div class="row">
+                    <a class="waves-effect green accent-4 btn"><i class="material-icons">check_circle</i>crear</a>
+                </div>
+            </div>
+
+        </li>
+        <li>
+            <div class="collapsible-header green accent-4"><i class="material-icons">border_color</i>Modificar</div>
+            <div class="collapsible-body ">
+                <div class="input-field col s12">
+                    <select>
+      <option value="" disabled selected>Elegir Tarea</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+
+    </select>
+                </div>
+                <div class="row">
+                    <a class="waves-effect green accent-4 btn"><i class="material-icons">border_color</i>Modificar</a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header green accent-4"><i class="material-icons">close</i>Eliminar</div>
+            <div class="collapsible-body">
+                <div class="input-field col s12">
+                    <select>
+      <option value="" disabled selected>Elegir Tarea</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+
+    </select>
+                </div>
+                <div class="row">
+                    <a class="waves-effect green accent-4 btn"><i class="material-icons">cancel</i>eliminar</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+</li></ul>

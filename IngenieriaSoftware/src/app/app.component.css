@@ -1,0 +1,17 @@
+#fondo{
+       height: 600px;
+    width: 600px;
+    background-image: url('https://www.edrawsoft.com/images/circular/Circular-Arrow-Diagram.png');
+ image-orientation: center;
+
+}
+
+#h1{
+    font-style: italic;
+    text-align: center;
+   color: rgba(46, 26, 134, 0.93);
+}
+span{
+    font-style: italic;
+    color:rebeccapurple;
+}

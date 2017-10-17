@@ -1,0 +1,19 @@
+#tr{
+    height: 120px;
+    width: 200px;
+
+}
+
+.f2{
+    width: 600px;
+height: 400px;
+top: 34%;
+left: 50%;
+position: absolute;
+margin-left: -175px;
+margin-top: -175px;
+border-width:2px; 
+border-style:solid;
+ border-color: #075207;
+ border-radius: 8px;
+}

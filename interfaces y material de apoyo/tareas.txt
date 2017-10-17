@@ -1,0 +1,19 @@
+1. registrar Participantes(KEVIN)
+15. eliminarTarea(kevin)
+5. crearTarea(Kevin)
+6. modificarTarea(Kevin)
+10. ingresar(Kevin)
+2. crear Proceso(LUISA)
+3. eliminar proceso(Luisa)
+4. modificarProceso(luisa)
+12. aprobarRechazar(LUISA)
+13. consultarEstadoProceso(Luisa)
+7. consultarParticipantes(Leonardo)//
+8. asignarProceso(Leonardo)xx
+9. consultarCuellosDebotella(Leonardo)
+11. ponersolicitudEn_unProceso(LEONARDO)
+14. EnvioAlertaEmail(Leonardo)
+
+Srs (Luisa)
+Rup(Luisa)
+BaseDeDatos(Leonardo)
